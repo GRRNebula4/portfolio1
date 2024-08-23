@@ -1,0 +1,70 @@
+/*Fonts Morion Regular otsikot ja Gotham light ingresseissä ja leipäteksteissä */
+/*Times New Roman ja Calibri*/
+/*Morion beta regular*/
+
+@font-face { font-family: 'morion-beta-regular'; 
+    src:
+    local("morion-beta-regular"),
+    url("morion-beta-regular.ttf")
+}
+
+
+@font-face { font-family: 'Gotham Light'; 
+    src:
+    local("Gotham Light"),
+    url("Gotham Light.otf")
+}
+
+#logo {
+    float: right;
+    width: 150px;
+    height: 90px;
+}
+
+div.reunat {
+    border: solid 2px;
+    border-color: #69013b;
+    border-radius: 15px;
+    background-color: #69013b;
+}
+
+header {
+    background-color: #69013b;
+    font-family: 'Gotham Light';
+    color: white;
+    margin-left: 20px;
+}
+
+article {
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    font-family: Morion-beta-regular;
+}
+
+#kursiivi {
+    font-style: italic;
+}
+
+h3, h4 {
+    margin: 0.5em;
+
+}
+
+.sisennys-2rem {
+    margin-left: 2rem;
+    font-family: 'Gotham Light';
+
+}
+
+.sisennys-4rem {
+    margin-left: 4rem;
+    font-family: 'Gotham Light';
+}
+
+footer {
+    background-color: #69013b;
+    font-family: 'Gotham Light';
+    color: white;
+}
